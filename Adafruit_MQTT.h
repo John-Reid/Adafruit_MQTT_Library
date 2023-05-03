@@ -178,7 +178,7 @@ public:
   // string stored in flash, but can be directly passed to e.g.
   // Serial.println without any further processing.
   const __FlashStringHelper *connectErrorString(int8_t code);
-#endif;
+#endif
 
   // Sends MQTT disconnect packet and calls disconnectServer()
   bool disconnect();
